@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06EC30DEEF5EABB5F00EC17F /* RateLimitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C132A898649C9CEEB1D087 /* RateLimitService.swift */; };
+		0A83D3CB2C104DFBF8842B29 /* GemmaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA52338FBE8D89188B429640 /* GemmaService.swift */; };
+		15F10C8B124203074C115E30 /* AddressNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAE5E492BAD4E6CBEB54964 /* AddressNormalizer.swift */; };
+		16B5452E8D67AE0A7C5C5F9E /* DistributionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3590F27856C3A92C3846B4EC /* DistributionListView.swift */; };
+		1C857F619030D10952812A06 /* AIAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0DF8753DC1A67FD24E384 /* AIAssistantView.swift */; };
+		1FCD4F676A48E8D4790C0497 /* ExitToModeSelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7F76584B22278A22B73196 /* ExitToModeSelectionButton.swift */; };
+		21214DF6107F5E7F46F7629B /* CoreMLLLM in Frameworks */ = {isa = PBXBuildFile; productRef = 8805AE5ED0D5E9EA7F067BB4 /* CoreMLLLM */; };
+		24E074AD07E31FA96EA29381 /* LaunchModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B613EAD8FA1FD444FFE7CDCB /* LaunchModeView.swift */; };
+		333EB9A72E446F5A88D0F16D /* FamilyGroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6DB666D56BC6971FC1DB8 /* FamilyGroupService.swift */; };
+		37C23C90216367F6B4F44B01 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D1C82D67D81739A0ECB3E7 /* LocationService.swift */; };
+		3A0188A1C135E2EF07E64CCA /* CSVExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C581D55B96120C4901F44 /* CSVExportService.swift */; };
+		4C2E1FC57E22EDD6DC15B18D /* CardPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F3BB7CD31BD7E29FD5484 /* CardPreprocessor.swift */; };
+		4D5CED8917214454750D9B10 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839B3EAAB68250EA4C654F45 /* HelpView.swift */; };
+		4E32DE5932DF4061FFBD917E /* NFCService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87D571CEC98CE102A3CAB28 /* NFCService.swift */; };
+		520143A5318BE7A5D42A20B9 /* ShelterAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243FF1AC4EED89EB17755FF /* ShelterAnalytics.swift */; };
+		5298F3504B78D0D64F5BE54E /* SituationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A23D2266761C209EE84D2D /* SituationView.swift */; };
+		65C59BAECA44589A7867A157 /* FamilyGroupBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713A4D951E6AE3757A3C5279 /* FamilyGroupBanner.swift */; };
+		6993A237F4E5C1E419F82F94 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E39B5CD450B054DF12947B2 /* FilterView.swift */; };
+		78C8B2CEECC03FC060E22467 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2289FB39305AABF27382AB14 /* DatabaseService.swift */; };
+		797E54C350D7E59AB714D152 /* CardScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CDA14E8E39C5CEA9228951 /* CardScanView.swift */; };
+		7D9F0D36C34F2DA39EB394FF /* ManualInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F6A962AAE6E466EEF072F /* ManualInputView.swift */; };
+		7FB5B07A1F498CF4976BE034 /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694BBB8ABE722CCC11572B72 /* ExportView.swift */; };
+		81E1439D9FD580B44EF08E51 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859946CCD1B6287CCEF4174 /* ModelManager.swift */; };
+		82FE26BFD08591B5D5D57982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC613DFDAF46C343F236C15 /* Assets.xcassets */; };
+		8411D975A2DAF74F38D09295 /* EvacueeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC2049096F679C6D86CF456 /* EvacueeListView.swift */; };
+		8CF6DE3DE6A4BC25C888342E /* RegistrationHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A228B0C5A946CF32330687 /* RegistrationHomeView.swift */; };
+		9032D7B08EC67076CF121CEF /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A1F75F6696C6EE20A2690 /* MainTabView.swift */; };
+		9EEFBF3801D7D7D2E8D320D1 /* AnpiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316F0BFF51CE915CF95BA12 /* AnpiAppApp.swift */; };
+		A11502870701DF189B3261C7 /* ConsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE56E5FEF319AEBA2A040C6F /* ConsentView.swift */; };
+		A14BCCB819BAE3058A008E61 /* CardOCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF31F405ACF3D66588C90CF /* CardOCRService.swift */; };
+		A755B322ADEA1668C287DA33 /* DistributionCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052F13B60964B373841C22A /* DistributionCheckView.swift */; };
+		A8AE52DDB80D38C113C921D7 /* ModelSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E25A5ED72CA862D158A21C /* ModelSetupView.swift */; };
+		AB46325C3AEC5CD458F71B53 /* CardAnalysisResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C065133EB774DFFBC431AE1 /* CardAnalysisResult.swift */; };
+		B035D0F3F61FCA1789151ECB /* Distribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB682B36CA20AE8C8984781 /* Distribution.swift */; };
+		BF6CE5B75892BA0701347E2E /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19830F43EB456B22609820A2 /* ChatMessage.swift */; };
+		CD7F27B40FD797878E0B15E3 /* CardAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ED369B9F49D052071975FF /* CardAnalysisView.swift */; };
+		D74D970CB26ABB0F76F1CDDA /* EvacueeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BA3197EAE76541A1880A31 /* EvacueeRecord.swift */; };
+		DB4DD8EA2D2059FAE8F5C6BC /* EvacueeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666CF08903DED615F1CDF358 /* EvacueeDetailView.swift */; };
+		E0573F70DE6353F83AB37B32 /* SampleDataSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DA4EA1F287654E37A6F7D7 /* SampleDataSeeder.swift */; };
+		EA34946BDE03AB45337DFB63 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCAB83AFE12899C2DA030BC /* AudioService.swift */; };
+		F175341D779A23F590BF442B /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 3049E93541ABEE916861D1C9 /* GRDB */; };
+		F8A92DAAD38C8ED6CF535B04 /* CardScanResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8944A1D036E0AC16FE1CF /* CardScanResultView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19830F43EB456B22609820A2 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		199F6A962AAE6E466EEF072F /* ManualInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualInputView.swift; sourceTree = "<group>"; };
+		20D1C82D67D81739A0ECB3E7 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		2289FB39305AABF27382AB14 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		24C132A898649C9CEEB1D087 /* RateLimitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateLimitService.swift; sourceTree = "<group>"; };
+		24ED369B9F49D052071975FF /* CardAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAnalysisView.swift; sourceTree = "<group>"; };
+		25A23D2266761C209EE84D2D /* SituationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SituationView.swift; sourceTree = "<group>"; };
+		2859946CCD1B6287CCEF4174 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		2E39B5CD450B054DF12947B2 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		31DA4EA1F287654E37A6F7D7 /* SampleDataSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataSeeder.swift; sourceTree = "<group>"; };
+		3590F27856C3A92C3846B4EC /* DistributionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionListView.swift; sourceTree = "<group>"; };
+		43CDA14E8E39C5CEA9228951 /* CardScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScanView.swift; sourceTree = "<group>"; };
+		49E0DF8753DC1A67FD24E384 /* AIAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantView.swift; sourceTree = "<group>"; };
+		4FC2049096F679C6D86CF456 /* EvacueeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvacueeListView.swift; sourceTree = "<group>"; };
+		5243FF1AC4EED89EB17755FF /* ShelterAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterAnalytics.swift; sourceTree = "<group>"; };
+		62B8944A1D036E0AC16FE1CF /* CardScanResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScanResultView.swift; sourceTree = "<group>"; };
+		666CF08903DED615F1CDF358 /* EvacueeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvacueeDetailView.swift; sourceTree = "<group>"; };
+		694BBB8ABE722CCC11572B72 /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+		713A4D951E6AE3757A3C5279 /* FamilyGroupBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyGroupBanner.swift; sourceTree = "<group>"; };
+		72BA3197EAE76541A1880A31 /* EvacueeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvacueeRecord.swift; sourceTree = "<group>"; };
+		8052F13B60964B373841C22A /* DistributionCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionCheckView.swift; sourceTree = "<group>"; };
+		839B3EAAB68250EA4C654F45 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		8BCAB83AFE12899C2DA030BC /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		9C065133EB774DFFBC431AE1 /* CardAnalysisResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAnalysisResult.swift; sourceTree = "<group>"; };
+		9C7F76584B22278A22B73196 /* ExitToModeSelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitToModeSelectionButton.swift; sourceTree = "<group>"; };
+		A35C581D55B96120C4901F44 /* CSVExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVExportService.swift; sourceTree = "<group>"; };
+		A43A1F75F6696C6EE20A2690 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		ADC613DFDAF46C343F236C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B613EAD8FA1FD444FFE7CDCB /* LaunchModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchModeView.swift; sourceTree = "<group>"; };
+		BBB682B36CA20AE8C8984781 /* Distribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distribution.swift; sourceTree = "<group>"; };
+		BF7F3BB7CD31BD7E29FD5484 /* CardPreprocessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPreprocessor.swift; sourceTree = "<group>"; };
+		C316F0BFF51CE915CF95BA12 /* AnpiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnpiAppApp.swift; sourceTree = "<group>"; };
+		DAF31F405ACF3D66588C90CF /* CardOCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOCRService.swift; sourceTree = "<group>"; };
+		DDB6DB666D56BC6971FC1DB8 /* FamilyGroupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyGroupService.swift; sourceTree = "<group>"; };
+		E0E25A5ED72CA862D158A21C /* ModelSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSetupView.swift; sourceTree = "<group>"; };
+		E496CFC051F53E15766ADD31 /* AnpiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnpiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA52338FBE8D89188B429640 /* GemmaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemmaService.swift; sourceTree = "<group>"; };
+		F87D571CEC98CE102A3CAB28 /* NFCService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCService.swift; sourceTree = "<group>"; };
+		F9A228B0C5A946CF32330687 /* RegistrationHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationHomeView.swift; sourceTree = "<group>"; };
+		FCAE5E492BAD4E6CBEB54964 /* AddressNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressNormalizer.swift; sourceTree = "<group>"; };
+		FE56E5FEF319AEBA2A040C6F /* ConsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11F58CFF119FCE2D06C9638C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F175341D779A23F590BF442B /* GRDB in Frameworks */,
+				21214DF6107F5E7F46F7629B /* CoreMLLLM in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E2888FDB294B9E9CA79EC66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49E0DF8753DC1A67FD24E384 /* AIAssistantView.swift */,
+				24ED369B9F49D052071975FF /* CardAnalysisView.swift */,
+				62B8944A1D036E0AC16FE1CF /* CardScanResultView.swift */,
+				43CDA14E8E39C5CEA9228951 /* CardScanView.swift */,
+				FE56E5FEF319AEBA2A040C6F /* ConsentView.swift */,
+				8052F13B60964B373841C22A /* DistributionCheckView.swift */,
+				3590F27856C3A92C3846B4EC /* DistributionListView.swift */,
+				666CF08903DED615F1CDF358 /* EvacueeDetailView.swift */,
+				4FC2049096F679C6D86CF456 /* EvacueeListView.swift */,
+				9C7F76584B22278A22B73196 /* ExitToModeSelectionButton.swift */,
+				694BBB8ABE722CCC11572B72 /* ExportView.swift */,
+				713A4D951E6AE3757A3C5279 /* FamilyGroupBanner.swift */,
+				2E39B5CD450B054DF12947B2 /* FilterView.swift */,
+				839B3EAAB68250EA4C654F45 /* HelpView.swift */,
+				B613EAD8FA1FD444FFE7CDCB /* LaunchModeView.swift */,
+				A43A1F75F6696C6EE20A2690 /* MainTabView.swift */,
+				199F6A962AAE6E466EEF072F /* ManualInputView.swift */,
+				E0E25A5ED72CA862D158A21C /* ModelSetupView.swift */,
+				F9A228B0C5A946CF32330687 /* RegistrationHomeView.swift */,
+				25A23D2266761C209EE84D2D /* SituationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20DE0F047FA5DA8B1F187975 /* AnpiApp */ = {
+			isa = PBXGroup;
+			children = (
+				3B93B57D0016738073778DD4 /* App */,
+				4F9180715E9CB6510D516503 /* Models */,
+				3121E108047AD4DE4E259AEF /* Services */,
+				0E2888FDB294B9E9CA79EC66 /* Views */,
+			);
+			name = AnpiApp;
+			path = Sources/AnpiApp;
+			sourceTree = "<group>";
+		};
+		3121E108047AD4DE4E259AEF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FCAE5E492BAD4E6CBEB54964 /* AddressNormalizer.swift */,
+				8BCAB83AFE12899C2DA030BC /* AudioService.swift */,
+				DAF31F405ACF3D66588C90CF /* CardOCRService.swift */,
+				BF7F3BB7CD31BD7E29FD5484 /* CardPreprocessor.swift */,
+				A35C581D55B96120C4901F44 /* CSVExportService.swift */,
+				2289FB39305AABF27382AB14 /* DatabaseService.swift */,
+				DDB6DB666D56BC6971FC1DB8 /* FamilyGroupService.swift */,
+				EA52338FBE8D89188B429640 /* GemmaService.swift */,
+				20D1C82D67D81739A0ECB3E7 /* LocationService.swift */,
+				2859946CCD1B6287CCEF4174 /* ModelManager.swift */,
+				F87D571CEC98CE102A3CAB28 /* NFCService.swift */,
+				24C132A898649C9CEEB1D087 /* RateLimitService.swift */,
+				31DA4EA1F287654E37A6F7D7 /* SampleDataSeeder.swift */,
+				5243FF1AC4EED89EB17755FF /* ShelterAnalytics.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3B93B57D0016738073778DD4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C316F0BFF51CE915CF95BA12 /* AnpiAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4F9180715E9CB6510D516503 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C065133EB774DFFBC431AE1 /* CardAnalysisResult.swift */,
+				19830F43EB456B22609820A2 /* ChatMessage.swift */,
+				BBB682B36CA20AE8C8984781 /* Distribution.swift */,
+				72BA3197EAE76541A1880A31 /* EvacueeRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5409F7FAD6A3D6D8B35BAE92 = {
+			isa = PBXGroup;
+			children = (
+				20DE0F047FA5DA8B1F187975 /* AnpiApp */,
+				AEC2CF6ACEAFC04EE35B2C58 /* Resources */,
+				DE67F647F3FAB5241CA0E3D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC2CF6ACEAFC04EE35B2C58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADC613DFDAF46C343F236C15 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE67F647F3FAB5241CA0E3D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E496CFC051F53E15766ADD31 /* AnpiApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6A2F2EEE69C07FCC6B2D3DA /* AnpiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30FA7F7AF0A1E46569254B6 /* Build configuration list for PBXNativeTarget "AnpiApp" */;
+			buildPhases = (
+				00646618AD4E12E71596A3FB /* Sources */,
+				8EAA767D526A21822151E1F1 /* Resources */,
+				11F58CFF119FCE2D06C9638C /* Frameworks */,
+				D91EDE3BD8DC8ABB106FF2EF /* Copy Gemma 4 Models */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnpiApp;
+			packageProductDependencies = (
+				3049E93541ABEE916861D1C9 /* GRDB */,
+				8805AE5ED0D5E9EA7F067BB4 /* CoreMLLLM */,
+			);
+			productName = AnpiApp;
+			productReference = E496CFC051F53E15766ADD31 /* AnpiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D5C316025758EF18FFFD80D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 2F02498E567D8FC4721DE4D2 /* Build configuration list for PBXProject "AnpiApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5409F7FAD6A3D6D8B35BAE92;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				73C6BA83575649E1C91978A2 /* XCRemoteSwiftPackageReference "CoreML-LLM" */,
+				45B1EC109C14DA0AB15322A3 /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DE67F647F3FAB5241CA0E3D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6A2F2EEE69C07FCC6B2D3DA /* AnpiApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EAA767D526A21822151E1F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FE26BFD08591B5D5D57982 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D91EDE3BD8DC8ABB106FF2EF /* Copy Gemma 4 Models */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Gemma 4 Models";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "MODEL_SRC=\"${SRCROOT}/Resources/Models/gemma-4-E2B-coreml\"\nMODEL_DST=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Models/gemma-4-E2B-coreml\"\nif [ -d \"$MODEL_SRC\" ]; then\n  echo \"Copying Gemma 4 model to bundle...\"\n  mkdir -p \"$MODEL_DST\"\n  rsync -a --delete \"$MODEL_SRC/\" \"$MODEL_DST/\"\n  echo \"Model copy complete ($(du -sh \"$MODEL_DST\" | cut -f1))\"\nelse\n  echo \"warning: Model directory not found at $MODEL_SRC — skipping\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00646618AD4E12E71596A3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C857F619030D10952812A06 /* AIAssistantView.swift in Sources */,
+				15F10C8B124203074C115E30 /* AddressNormalizer.swift in Sources */,
+				9EEFBF3801D7D7D2E8D320D1 /* AnpiAppApp.swift in Sources */,
+				EA34946BDE03AB45337DFB63 /* AudioService.swift in Sources */,
+				3A0188A1C135E2EF07E64CCA /* CSVExportService.swift in Sources */,
+				AB46325C3AEC5CD458F71B53 /* CardAnalysisResult.swift in Sources */,
+				CD7F27B40FD797878E0B15E3 /* CardAnalysisView.swift in Sources */,
+				A14BCCB819BAE3058A008E61 /* CardOCRService.swift in Sources */,
+				4C2E1FC57E22EDD6DC15B18D /* CardPreprocessor.swift in Sources */,
+				F8A92DAAD38C8ED6CF535B04 /* CardScanResultView.swift in Sources */,
+				797E54C350D7E59AB714D152 /* CardScanView.swift in Sources */,
+				BF6CE5B75892BA0701347E2E /* ChatMessage.swift in Sources */,
+				A11502870701DF189B3261C7 /* ConsentView.swift in Sources */,
+				78C8B2CEECC03FC060E22467 /* DatabaseService.swift in Sources */,
+				B035D0F3F61FCA1789151ECB /* Distribution.swift in Sources */,
+				A755B322ADEA1668C287DA33 /* DistributionCheckView.swift in Sources */,
+				16B5452E8D67AE0A7C5C5F9E /* DistributionListView.swift in Sources */,
+				DB4DD8EA2D2059FAE8F5C6BC /* EvacueeDetailView.swift in Sources */,
+				8411D975A2DAF74F38D09295 /* EvacueeListView.swift in Sources */,
+				D74D970CB26ABB0F76F1CDDA /* EvacueeRecord.swift in Sources */,
+				1FCD4F676A48E8D4790C0497 /* ExitToModeSelectionButton.swift in Sources */,
+				7FB5B07A1F498CF4976BE034 /* ExportView.swift in Sources */,
+				65C59BAECA44589A7867A157 /* FamilyGroupBanner.swift in Sources */,
+				333EB9A72E446F5A88D0F16D /* FamilyGroupService.swift in Sources */,
+				6993A237F4E5C1E419F82F94 /* FilterView.swift in Sources */,
+				0A83D3CB2C104DFBF8842B29 /* GemmaService.swift in Sources */,
+				4D5CED8917214454750D9B10 /* HelpView.swift in Sources */,
+				24E074AD07E31FA96EA29381 /* LaunchModeView.swift in Sources */,
+				37C23C90216367F6B4F44B01 /* LocationService.swift in Sources */,
+				9032D7B08EC67076CF121CEF /* MainTabView.swift in Sources */,
+				7D9F0D36C34F2DA39EB394FF /* ManualInputView.swift in Sources */,
+				81E1439D9FD580B44EF08E51 /* ModelManager.swift in Sources */,
+				A8AE52DDB80D38C113C921D7 /* ModelSetupView.swift in Sources */,
+				4E32DE5932DF4061FFBD917E /* NFCService.swift in Sources */,
+				06EC30DEEF5EABB5F00EC17F /* RateLimitService.swift in Sources */,
+				8CF6DE3DE6A4BC25C888342E /* RegistrationHomeView.swift in Sources */,
+				E0573F70DE6353F83AB37B32 /* SampleDataSeeder.swift in Sources */,
+				520143A5318BE7A5D42A20B9 /* ShelterAnalytics.swift in Sources */,
+				5298F3504B78D0D64F5BE54E /* SituationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CCA2FF994994FB13D4FA4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/AnpiApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = J4XY9G7NL6;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69F1A62DA10DA22B31D88E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.resolver.anpiapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		83D8AA27DDE549CEECA2E0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.resolver.anpiapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		8437E4D0D4FC23B3E5A99157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/AnpiApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = J4XY9G7NL6;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F02498E567D8FC4721DE4D2 /* Build configuration list for PBXProject "AnpiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F1A62DA10DA22B31D88E62 /* Debug */,
+				83D8AA27DDE549CEECA2E0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F30FA7F7AF0A1E46569254B6 /* Build configuration list for PBXNativeTarget "AnpiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8437E4D0D4FC23B3E5A99157 /* Debug */,
+				3CCA2FF994994FB13D4FA4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45B1EC109C14DA0AB15322A3 /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.24.0;
+			};
+		};
+		73C6BA83575649E1C91978A2 /* XCRemoteSwiftPackageReference "CoreML-LLM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/john-rocky/CoreML-LLM";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3049E93541ABEE916861D1C9 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45B1EC109C14DA0AB15322A3 /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+		8805AE5ED0D5E9EA7F067BB4 /* CoreMLLLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73C6BA83575649E1C91978A2 /* XCRemoteSwiftPackageReference "CoreML-LLM" */;
+			productName = CoreMLLLM;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0D5C316025758EF18FFFD80D /* Project object */;
+}

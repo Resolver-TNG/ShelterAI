@@ -1,0 +1,45 @@
+# .gitignore for AnpiApp (iOS/Xcode)
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Swift Package Manager
+.build/
+.swiftpm/
+*.resolved
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fastlane / CI
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Simulator
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods (not used, but just in case)
+Pods/
+
+# ML Models (too large for git, download from HuggingFace)
+Models/
+Resources/Models/
+build/
+assets/disaster-glow-1.png
+assets/disaster-glow-2.png
+assets/disaster-glow-v2-1.png
+assets/disaster-glow-v2-2.png
