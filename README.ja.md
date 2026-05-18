@@ -16,7 +16,7 @@
 
 > **紙を否定しない、もう一つの選択肢。**
 
-### 🎬 [デモ動画](https://youtu.be/s2XrPMB0DGc)
+### 🎬 [デモ動画](https://youtu.be/Cx2k1hUeT0o)
 
 <p align="center">
   <img src="assets/screenshot-list.png" alt="避難者リスト" width="230">

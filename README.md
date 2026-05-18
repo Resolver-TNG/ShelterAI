@@ -18,7 +18,7 @@
 
 > **Not a replacement for paper — another option alongside it.**
 
-### 🎬 [Demo Video](https://youtu.be/s2XrPMB0DGc)
+### 🎬 [Demo Video](https://youtu.be/Cx2k1hUeT0o)
 
 <p align="center">
   <img src="assets/screenshot-list.png" alt="Evacuee List" width="230">
